@@ -108,7 +108,7 @@ And to everyone committed to building transparent, explainable, anti-enclosure A
 ---
 
 ## 📫 Contact
-TBD (Insert GitHub handle or email here)
+github.com/picollo7
 
 ---
 
