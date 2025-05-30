@@ -4,7 +4,7 @@
 ![Built with SDS](https://img.shields.io/badge/Built%20With-Semantic%20Drift%20Score-ff69b4)
 
 
-SDS (Semantic Drift Score) is an open-source tool for quantifying **meaning loss during text compression**, such as summarization, by measuring the **embedding-based semantic difference** between an original text and its summary.
+SDS (Semantic Drift Score) is an open-source tool for quantifying **meaning loss during text transformation**, such as summarization, by measuring the **embedding-based semantic difference** between an original text and its summary.
 
 Built for clarity, extensibility, and liberation, SDS helps track, compare, and audit semantic preservation across compression strategies.
 
