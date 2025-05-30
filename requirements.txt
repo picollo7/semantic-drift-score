@@ -1,0 +1,4 @@
+torch>=2.0
+sentence-transformers>=2.2.2
+transformers>=4.36.2
+xformers  # required for Stella's memory-efficient attention
