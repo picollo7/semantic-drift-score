@@ -86,6 +86,7 @@ Key findings:
 - ✅ **Low SDS values (mean ≈ 0.13)** on human summaries establish a baseline for “good” semantic fidelity
 
 📊 Raw results XSLX: [`tests/sds_dual_model_eval.xlsx`](tests/sds_dual_model_eval.xlsx)
+
 📄 See full writeup in [`tests/sds_summary_findings.md`](tests/sds_summary_findings.md)
 
 ---
