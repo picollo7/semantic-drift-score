@@ -13,7 +13,7 @@ Built for clarity, extensibility, and liberation, SDS helps track, compare, and 
 - Compare results across different embedding models (e.g. GTE, Stella)
 - Run single or dual-model analyses
 - Command-line interface for automation
-- Designed for long context support (up to 8192 tokens)
+- Designed for long context support (up to 8192 tokens with current GTE and Stella models, you can change embedding models as desired)
 
 ---
 
