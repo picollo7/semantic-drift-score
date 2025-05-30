@@ -71,6 +71,20 @@ Use cases include:
 
 ---
 
+## 📊 SDS Evaluation Summary
+
+SDS (Semantic Drift Score) was benchmarked on 500 randomly sampled human summaries from the CNN/DailyMail dataset. Using both GTE and Stella embedding models, we evaluated its alignment with established metrics like BERTScore, ROUGE, and BLEU.
+
+Key findings:
+- ✅ **Strong inter-model agreement** between GTE and Stella SDS (r = 0.786)
+- ✅ **Moderate inverse correlation** with BERTScore F1 (–0.48 to –0.56)
+- ✅ **Low correlation with ROUGE/BLEU**, confirming SDS captures meaning, not just token overlap
+- ✅ **Low SDS values (~0.13 avg)** on human summaries establish a baseline for “good” semantic fidelity
+
+📄 See full writeup in [`docs/sds_summary_findings.md`](docs/sds_summary_findings.md)
+
+---
+
 ## 🔒 License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3). 
@@ -90,10 +104,7 @@ Join the project’s liberation mission — SDS is part of a larger initiative t
 ---
 
 ## 🧪 Future Additions
-- Model calibration via graded-summary datasets (ROUGE-independent)
-- Jupyter Notebook visualizations
 - Optional chunking/rolling-window support for longer texts
-- SDS heatmaps
 - Compression-aware LLM memory scoring
 
 ---
