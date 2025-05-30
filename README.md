@@ -81,7 +81,7 @@ Key findings:
 - ✅ **Low correlation with ROUGE/BLEU**, confirming SDS captures meaning, not just token overlap
 - ✅ **Low SDS values (~0.13 avg)** on human summaries establish a baseline for “good” semantic fidelity
 
-📄 See full writeup in [`docs/sds_summary_findings.md`](docs/sds_summary_findings.md)
+📄 See full writeup in [`tests/sds_summary_findings.md`](tests/sds_summary_findings.md)
 
 ---
 
